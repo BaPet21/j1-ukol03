@@ -18,13 +18,18 @@ public class Pocitac {
         /*do {zapniSe();
             while (ram,cpu,pevnyDisk > 0;)
         }*/
-        ram>0,cpu>0,pevnyDisk>0;
+        if (ram > 0) { Pamet = true;
+        else Pamet = false;}
+       if (cpu>0) {Procesor= true;
+       else Procesor=false;}
+        if (pevnyDisk > 0) {Disk = true;
+        else Disk = false;}
 
         while (true){
             zapniSe();
         }
         if (ram == null) {
-            System.err.println(" V pocitaci neni pamet.");
+            System.err.println(" V pocitaci neni pamet.");)
 
         } else if (cpu == null) {
             System.err.println(" V pocitaci neni procesor.");
@@ -43,16 +48,13 @@ public class Pocitac {
         switch(Pocitac;)
 
     {
-        case ram == null
-            ;
+        case ram == null;
             System.err.println(" V pocitaci neni pamet.");
             break;
-        case cpu == null
-            ;
+        case cpu == null;
             System.err.println(" V pocitaci neni procesor.");
             break;
-        case pevnyDisk == null
-            ;
+        case pevnyDisk == null;
             System.err.println(" V pocitaci neni disk.");
             break;
 
