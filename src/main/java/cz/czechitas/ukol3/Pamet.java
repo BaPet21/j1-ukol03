@@ -13,6 +13,7 @@ public class Pamet {
     }
 
     @Override
-    public String toString() {return  "" + kapacitaPameti ;}
-
+    public String toString() {
+        return "Kapacita paměti je " + kapacitaPameti + " bajtu.";
+    }
 }

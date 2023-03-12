@@ -22,6 +22,9 @@ public class Procesor {
     }
 
     @Override
-    public String toString() {return "" + vyrobce + "" + rychlost ;}
+    public String toString() {
+        return "Procesor značky " + vyrobce + " o rychlosti " + rychlost + " Hz.";
+    }
+
 
 }
