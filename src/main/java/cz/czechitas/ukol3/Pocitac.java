@@ -8,6 +8,7 @@ public class Pocitac {
     private Pamet ram;
 
     private Disk pevnyDisk;
+    private Disk pevnyDisk2;
 
 
     public boolean isPcJeZapnuty() {
